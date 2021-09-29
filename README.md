@@ -1,4 +1,4 @@
-# js-counter-app 🔢
+# js-counter-app 🧮
 
 A simple counter application, saving the current count in the user's browser storage to prevent loss on page refresh.
 
