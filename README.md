@@ -1,7 +1,7 @@
-# js-counter-app 🧮
+# js-counter 🧮
 
 A simple counter application, saving the current count in the user's browser storage to prevent loss on page refresh.
 
 ## Demo
 
-https://robsd.github.io/js-counter-app
+https://robsd.github.io/js-counter
