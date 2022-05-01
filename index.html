@@ -4,31 +4,38 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-		<title>Counter</title>
+		<title>Countdown</title>
 	</head>
 	<body>
 		<div class="container my-5">
-			<h1 class="mb-5">Counter</h1>
-			<div class="card">
-				<div class="card-body">
-					<div class="row">
-						<div class="col">
-							<button class="btn btn-primary w-100" onclick="changeCount('-');"><i class="fas fa-minus"></i></button>
-						</div>
-						<div class="col">
-							<h2 class="text-center" id="count">0</h2>
-							<button class="btn btn-danger w-100" onclick="changeCount('0');">Reset</button>
-						</div>
-						<div class="col">
-							<button class="btn btn-primary w-100" onclick="changeCount('+');"><i class="fas fa-plus"></i></button>
-						</div>
+			<h1 class="mb-5">Countdown</h1>
+			<div class="row text-center mb-5">
+				<div class="col-3">
+					<div class="bg-primary text-white rounded py-3">
+						<h1 id="days">0</h1>
+						<span>days</span>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="bg-primary text-white rounded py-3">
+						<h1 id="hours">0</h1>
+						<span>hours</span>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="bg-primary text-white rounded py-3">
+						<h1 id="minutes">0</h1>
+						<span>minutes</span>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="bg-primary text-white rounded py-3">
+						<h1 id="seconds">0</h1>
+						<span>seconds</span>
 					</div>
 				</div>
 			</div>
-			<div class="mt-5">
-				<small>Developed by <a href="https://robertd.co.uk">Robert Dixon</a>.</small>
-			</div>
+			<p>Developed by <a href="https://robertd.co.uk">Robert Dixon</a></p>
 		</div>
 		<script src="js/script.js"></script>
 	</body>
